@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+   
+    <div class="navbar bg-base-100 drop-shadow-sm px-28">
+        <div class="navbar-start ">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Item 1</a></li>
+              <li tabindex="0">
+                <a class="justify-between">
+                  Parent
+                  <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
+                </a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+          <div class="sm:hidden lg:block  hidden">
+            <a class=" normal-case text-xl font-bold"><span class="text-green-900  ">QUIZE</span> <span>HERO</span></a>
+            <p>Get Ready To Quiz And Be Amazed!!!!</p>
+          </div>    
+        </div>       
+        <div class="navbar-end">
+          <a class="btn bg-green-900">Blog</a>
+        </div>
+      </div>
+
+  <section class="w-[50%] mx-auto my-5">
+  <div class="text-center">
+    <h4 class="font-bold text-xl">Welcome To Quiz Here</h4>
+    <h6 class="pt-4">Quiz Rools :</h6>
+    <p class="text-red-900">Please read all the rules and steps before start.</p>
+  </div>
+    <div>
+      <h4 class="py-2"><div class="badge badge-accent">Step1</div> Click on the <div class="badge badge-primary">Start Quiz</div> button below.</h4>
+      <h4><div class="badge badge-accent">Step2</div> After clicking Start button, you will see a page with 3s count down, wait until the count is over!</h4>
+      <h4 class="py-2"><div class="badge badge-accent">Step3</div> You will see the questions with 4 options for each, and counter will start and which will count your exam time.</h4>
+      <h4 class="py-2"><div class="badge badge-accent">Step4</div> You have to select the correct answer, and you have 60 seconds to answer 6 questions.</h4>
+      <h4><div class="badge badge-accent">Step5</div>  Click on the submit quiz button, when you are done with all the answers</h4>
+    </div>
+   <div class="text-center pt-7">
+    <div>
+      <a class="btn bg-green-900 text-white">Start Quiz</a>
+    </div> 
+    <p class="pt-2">Copyright © 2023 Quiz Hero All Rights Reserved.</p>
+   </div>
+  </section>
+    
+   
+</body>
+</html>
